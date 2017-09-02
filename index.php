@@ -31,25 +31,26 @@
   <div id="about-SwimMirror" class="white-text text-center">
     <div class="container features-icon-section">
       <!-- Improve Instantly -->
-      <div class="col-xs-12 col-sm-6 col-md-3 features-icons">
+      <div class="col-xs-6 col-sm-6 col-md-3 features-icons">
         <img class="img-responsive img-center" src="assets/imgs/swimmirror-improve-instantly.png" alt="SwimMirror - Improve Instantly">
         <h6>Improve Instantly</h6>
         <p>Improve your swim strokes in real-time by seeing your technique while you practice.</p>
       </div>
       <!-- Simple Setup -->
-      <div class="col-xs-12 col-sm-6 col-md-3 features-icons">
+      <div class="col-xs-6 col-sm-6 col-md-3 features-icons">
         <img class="img-responsive img-center" src="assets/imgs/swimmirror-simple-setup.png" alt="SwimMirror - Improve Instantly">
         <h6>Simple Setup</h6>
         <p>No construction or extra attachments required. Simply put it down and start swimming.</p>
       </div>
+			<div class="visible-375 clearfix"></div>
       <!-- Long Lasting -->
-      <div class="col-xs-12 col-sm-6 col-md-3 features-icons">
+      <div class="col-xs-6 col-sm-6 col-md-3 features-icons">
         <img class="img-responsive img-center" src="assets/imgs/swimmirror-long-lasting.png" alt="SwimMirror - Improve Instantly">
         <h6>Long Lasting</h6>
         <p>SwimMirrors are lightweight, corrosion-resistant and <br class="visible-lg">shatter-proof.</p>
       </div>
       <!-- Minimal Maintenance -->
-      <div class="col-xs-12 col-sm-6 col-md-3 features-icons">
+      <div class="col-xs-6 col-sm-6 col-md-3 features-icons">
         <img class="img-responsive img-center" src="assets/imgs/swimmirror-minimal-maintenance.png" alt="SwimMirror - Improve Instantly">
         <h6>Minimal Maintenance</h6>
         <p>Just rinse and air dry for future use&mdash;no extra work is needed for SwimMirror upkeep.</p>
@@ -152,14 +153,14 @@
 		<div class="container">
 			<div class="col-md-5 col-sm-12 buy-now-first-content">
 				<h3>Buy Now</h3>
-				<p>With SwimMirror, seeing really is believing.<br> Improve your swim technique today.</p>
-				<p class="small-text">For 10 units or more, we offer custom quotes. <br>Use the form below to get started.</p>
+				<p>With SwimMirror, seeing really is believing.<br class="hidden-xxs"> Improve your swim technique today.</p>
+				<p class="small-text">For 10 units or more, we offer custom quotes. <br class="hidden-xxs">Use the form below to get started.</p>
 			</div>
-			<div class="col-md-4 col-xs-6 swimmirror-buybutton-img">
-				<img class="img-responsive" src="assets/imgs/swimmirror-buynow.png" alt="<?php echo $alt_tag ?>">
+			<div class="col-md-4 col-sm-6 col-xs-12 swimmirror-buybutton-img text-center-xs">
+				<img class="img-responsive image-center-xs" src="assets/imgs/swimmirror-buynow.png" alt="<?php echo $alt_tag ?>">
 			</div>
-			<div class="col-md-3 col-xs-6">
-				<img class="img-responsive" src="assets/imgs/swimmirror-logo.svg" alt="<?php echo $alt_tag ?>">
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center-xs">
+				<img class="img-responsive hidden-xs" src="assets/imgs/swimmirror-logo.svg" alt="<?php echo $alt_tag ?>">
 				<p class="price">$94.99</p>
 				<div id='product-component-debc8f27a42'></div>
 					<script type="text/javascript">
@@ -355,7 +356,7 @@
 		<div class="container">
 			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-center">
 				<h3 class="text-center">Contact Us</h3>
-				<p class="white-text">Have a question or want to know more about SwimMirror?<br> Give us a call at 800-432-3423 or fill out this form and we'll get in touch with you right away.</p>
+				<p class="white-text">Have a question or want to know more about SwimMirror?<br class="hidden-xs"> Give us a call at <span class="hidden-xs">800-432-3423</span><span class="visible-xs display-inlineb"><a href="tel:8004323423">800-432-3423</a></span> or fill out this form and we'll get in touch with you right away.</p>
 				<form class="jotform-form contact-us-form white-text text-left" action="https://submit.jotformpro.com/submit/71766411945967/" method="post" name="form_71766411945967" id="71766411945967" accept-charset="utf-8">
 					<div class="form-group">
 						<div class="">

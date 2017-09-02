@@ -79,6 +79,9 @@ a.btn-light:hover, a.btn-light:active, a.btn-light:focus {
     font-size: 13px;
   }
 }
+.display-inlineb {
+  display: inline!important;
+}
 
 
 /************************
@@ -619,6 +622,9 @@ footer p {
   div#four-oh-four {
     margin-top: 0px;
   }
+  #hero p {
+    margin-top: 30px;
+}
 }
 
 @media (max-width: 767px){
@@ -654,6 +660,12 @@ footer p {
   .social-media-icons {
     text-align: center;
     font-size: 1.75rem;
+  }
+  .text-center-xs {
+    text-align: center;
+  }
+  .image-center-xs {
+    display:inline-block;
   }
 }
 
@@ -696,5 +708,39 @@ footer p {
   }
   div#under-water {
     padding-bottom: 80px;
+  }
+}
+
+.visible-375 {
+  display: none;
+}
+
+@media (max-width:375px) {
+  html, body {
+    font-size: 12px;
+  }
+  .visible-375 {
+    display: block;
+  }
+  h3:after {
+    margin-top: -10px;
+  }
+  #hero {
+    padding: 40px 0;
+  }
+  #about-SwimMirror .features-icon-section {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 340px) {
+  .hidden-xxs {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .tab-content {
+      min-height: 275px;
   }
 }
