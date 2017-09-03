@@ -355,7 +355,7 @@
 			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
 				<h3 class="text-center">Contact Us</h3>
 				<p class="white-text">Have a question or want to know more about SwimMirror?<br class="hidden-xs"> Give us a call at <span class="hidden-xs">800-432-3423</span><span class="visible-xs display-inlineb-xs"><a href="tel:8004323423">800-432-3423</a></span> or fill out this form and we'll get in touch with you right away.</p>
-				<form class="jotform-form contact-us-form white-text text-left" action="https://submit.jotformpro.com/submit/71766411945967/" method="post" name="form_71766411945967" id="71766411945967" accept-charset="utf-8">
+				<form class="jotform-form contact-us-form white-text text-left" method="post" name="form_71766411945967" id="71766411945967" accept-charset="utf-8">
 					<div class="form-group">
 						<div class="">
 							<label for="input_3">Name*</label>
@@ -388,13 +388,6 @@
 					<button id="input_2" type="submit" class="btn btn-default submit-btn col-xs-12 col-sm-4 col-sm-offset-4 form-submit-button" data-component="button">
             Submit
           </button>
-					<script>
-				  JotForm.showJotFormPowered = "0";
-				  </script>
-				  <input type="hidden" id="simple_spc" name="simple_spc" value="71766411945967" />
-				  <script type="text/javascript">
-				  document.getElementById("si" + "mple" + "_spc").value = "71766411945967-71766411945967";
-				  </script>
 				</form>
 			</div>
 		</div>
@@ -419,24 +412,6 @@
 	$(document).ready(function(){
       $(".req").hide();
   });
-	// sets honeypot input field as variable
-	var emptyfield = document.getElementsByName("q7_website");
-	// sets form as variable
-	var webform = document.getElementsByTagName("form");
-
-	//on form submit, run this function
-	webform[0].onsubmit = function(){
-		// if honeypot field is not equal to nothing, then spam alert and do not let form submit
-		if (emptyfield[0].value != ""){
-		  alert ("Spammers alert!");
-		  return false;
-		} else{
-		return true; //submit form
-		}
-	}
 </script>
-
-<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.793" type="text/javascript"></script>
-
 </body>
 </html>

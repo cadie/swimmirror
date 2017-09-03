@@ -1,4 +1,3 @@
 User-agent: *
 Disallow: /form/
 Disallow: /thank-you/
-Sitemap: http://swimmirror.com/sitemap.xml

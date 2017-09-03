@@ -11,7 +11,7 @@
 			<link rel="icon" type="image/x-icon" href="assets/imgs/favicon.png" />
       <meta name="description" content="404 - Page not found">
       <meta name="keywords" content="">
-      <meta name="author" content="Dream Factory">
+      <meta name="robots" content="noindex">
 
     <!-- STYLING -->
       <!-- Reset CSS -->
@@ -108,24 +108,6 @@
 	  crossorigin="anonymous"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-	<script type="text/javascript">
-		// smooth scrolling
-		$(function() {
-		  $('a[href*="#"]:not([data-toggle="tab"])').click(function() {
-		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		      var target = $(this.hash);
-		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		      if (target.length) {
-		        $('html, body').animate({
-		          scrollTop: target.offset().top
-		        }, 1000);
-		        return false;
-		      }
-		    }
-		  });
-		});
-	</script>
 
 </body>
 </html>
