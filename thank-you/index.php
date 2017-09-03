@@ -28,8 +28,5 @@
 
   <?php include __DIR__."../../includes/footer.php" ?>
 
-  <script type="text/javascript">
-
-  </script>
   </body>
   </html>

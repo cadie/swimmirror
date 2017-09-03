@@ -1,5 +1,5 @@
 <?php
-	$root_adjust="";
+	$root_adjust="./";
 	$page_title="The Essential Swimming Tool";
 	$page_description="Self-assess your swim strokes and make the necessary improvements in real-time with SwimMirrors—the only tool to help you enhance your swim technique.";
 	$alt_tag="SwimMirror - The Essential Swimming Tool";
@@ -406,45 +406,37 @@
 <?php include __DIR__."/includes/footer.php" ?>
 
 <script type="text/javascript">
+	//*** FORM STYLE SCRIPTS ***//
+	// adds active-label class to form label when clicked by user
 	$(document).on('focus active', 'input',function(){
 		$('label[for='+$(this).attr('id')+']').addClass('active-label');
 	});
+	// removes active-label class to form label when clicked by user
 	$(document).on('blur', 'input',function(){
 		$('label[for='+$(this).attr('id')+']').removeClass('active-label');
 	});
+	// hides honeypot field on form
 	$(document).ready(function(){
       $(".req").hide();
   });
+	// sets honeypot input field as variable
+	var emptyfield = document.getElementsByName("q7_website");
+	// sets form as variable
+	var webform = document.getElementsByTagName("form");
+
+	//on form submit, run this function
+	webform[0].onsubmit = function(){
+		// if honeypot field is not equal to nothing, then spam alert and do not let form submit
+		if (emptyfield[0].value != ""){
+		  alert ("Spammers alert!");
+		  return false;
+		} else{
+		return true; //submit form
+		}
+	}
 </script>
-<script type="text/javascript">
 
-var emptyfield = document.getElementsByName("q7_website");
-
-var formz = document.getElementsByTagName("form");
-
-formz[0].onsubmit = function(){
-
-if (emptyfield[0].value != ""){
-
-  alert ("Spammers alert!"); //trigger alert
-
-  console.log("form cannot be sent"); //print log
-
-  return false; //unsubmit form
-
-}
-
-else{
-
-return true; //submit form
-
-}
-
-}
-
-</script>
 <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.793" type="text/javascript"></script>
 
-	 <!-- <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script> -->
 </body>
 </html>
