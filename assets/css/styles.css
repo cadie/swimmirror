@@ -56,8 +56,8 @@ a:hover {
     display: inline-block;
     text-align: center;
 }
-::-moz-selection { background: #0fa79d; }
-::selection { background: #0fa79d; }
+::-moz-selection { background: rgba(15, 167, 157, 0.5); }
+::selection { background: rgba(15, 167, 157, 0.5); }
 a.btn-light {
     padding: 10px 40px 15px 40px;
     background: #0fa79d;
