@@ -16,12 +16,10 @@
   <!-- HERO -->
   <div id="hero" class="text-center">
     <div class="container">
-      <div class="col-sm-12">
         <h1>SwimMirror</h1>
         <h2>The Only Tool You Need to Enhance Your Swim Training</h2>
         <p>See the SwimMirror in action.</p>
         <a href="#swimmirror-video" class="btn-light"><i class="fa fa-play" aria-hidden="true"></i> Watch Now</a>
-      </div>
     </div>
   </div>
 
@@ -354,9 +352,9 @@
 
 	<div id="contact-us">
 		<div class="container">
-			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-center">
+			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
 				<h3 class="text-center">Contact Us</h3>
-				<p class="white-text">Have a question or want to know more about SwimMirror?<br class="hidden-xs"> Give us a call at <span class="hidden-xs">800-432-3423</span><span class="visible-xs display-inlineb"><a href="tel:8004323423">800-432-3423</a></span> or fill out this form and we'll get in touch with you right away.</p>
+				<p class="white-text">Have a question or want to know more about SwimMirror?<br class="hidden-xs"> Give us a call at <span class="hidden-xs">800-432-3423</span><span class="visible-xs display-inlineb-xs"><a href="tel:8004323423">800-432-3423</a></span> or fill out this form and we'll get in touch with you right away.</p>
 				<form class="jotform-form contact-us-form white-text text-left" action="https://submit.jotformpro.com/submit/71766411945967/" method="post" name="form_71766411945967" id="71766411945967" accept-charset="utf-8">
 					<div class="form-group">
 						<div class="">

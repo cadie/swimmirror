@@ -87,17 +87,17 @@
 	<!-- start footer -->
 	<footer>
 		<div class="container">
-			<div class="col-md-8">
+			<div class="col-md-12 text-center">
 				<p>&copy; SwimMirror 2017 | We value your <a href="https://americandouglasmetals.com/privacy-policy/" target="_blank">privacy</a>. | View our <a href="https://americandouglasmetals.com/refunds-returns/" target="_blank">Refunds &amp; Returns Policy</a>. | Website by <a href="https://dreamfactoryagency.com/" target="_blank">Dream Factory</a>.</p>
 			</div>
-			<div class="col-md-4 social-media-icons">
+			<!-- <div class="col-md-4 social-media-icons">
 				<a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 	      <a href="" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
 	      <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 	      <a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 	      <a href="" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 	      <a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-			</div>
+			</div> -->
 		</div>
 	</footer>
 
